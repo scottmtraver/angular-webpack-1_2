@@ -4,7 +4,8 @@
   "description": "Playing with webpack, typescript, mocha, and two versions of angular side by side",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/scottmtraver/angular-webpack-1_2/issues"
   },
-  "homepage": "https://github.com/scottmtraver/angular-webpack-1_2#readme"
+  "homepage": "https://github.com/scottmtraver/angular-webpack-1_2#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
