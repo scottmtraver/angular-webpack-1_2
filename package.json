@@ -1,0 +1,24 @@
+{
+  "name": "angular-webpack-1_2",
+  "version": "1.0.0",
+  "description": "Playing with webpack, typescript, mocha, and two versions of angular side by side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmtraver/angular-webpack-1_2.git"
+  },
+  "keywords": [
+    "webpack",
+    "angular",
+    "javascript"
+  ],
+  "author": "Scott Traver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottmtraver/angular-webpack-1_2/issues"
+  },
+  "homepage": "https://github.com/scottmtraver/angular-webpack-1_2#readme"
+}
