@@ -4,12 +4,23 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        app: './src/app/app.js',
-        print: './src/app/utilities/print.js',
-
+        app: './src/app/app.ts',
     },
-    devtool:'inline-source-map',
-    devServer:{
+    module: {
+        // noParse: /node_modules\/lodash\/lodash\.js/,
+        rules: [
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
+            }
+        ]
+    },
+    resolve: {
+        extensions: [".ts", ".js"]
+    },
+    devtool: 'inline-source-map',
+    devServer: {
         contentBase: path.resolve(__dirname, 'dist')
     },
     plugins: [

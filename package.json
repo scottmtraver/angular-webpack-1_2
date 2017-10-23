@@ -24,10 +24,9 @@
     "url": "https://github.com/scottmtraver/angular-webpack-1_2/issues"
   },
   "homepage": "https://github.com/scottmtraver/angular-webpack-1_2#readme",
-  "dependencies": {
-    "lodash": "^4.17.4"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/lodash": "^4.14.77",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "csv-loader": "^2.1.1",
